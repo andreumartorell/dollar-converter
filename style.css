@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(255 226 217);
+  background-color: rgb(217 242 255);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -34,7 +34,7 @@ button{
 #t-dollar {
   margin-bottom: 65px;
   font-size: 42px;
-  color: #b24646;
+  color: #3c7e91;
 }
 
 #display{
@@ -129,6 +129,13 @@ button{
   font-weight: bolder;
 }
 
+#s-display-container {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  height: 30px;
+}
+
 #s-display-container select{
   background: none;
   border: none;
@@ -136,9 +143,6 @@ button{
   color: rgb(0 0 0);
 }
 
-#s-display-container {
-  display: flex;
-  gap: 7px;
-  align-items: center;
-  height: 30px;
+select:hover {
+  cursor: pointer;
 }
